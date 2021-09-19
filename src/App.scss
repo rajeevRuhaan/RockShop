@@ -1,0 +1,113 @@
+/**  HEADER page style**/
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .logo {
+    font-family: Rock Salt;
+  }
+  nav {
+    display: inline-block;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+  }
+}
+/**  home page style**/
+.home {
+  .hero-banner {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(121, 117, 233);
+
+    img {
+      width: 100%;
+      height: 35vh;
+    }
+    .product-categories {
+      h2 {
+        text-align: center;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        margin: auto 20% auto 20%;
+        li {
+          width: 400px;
+          height: 300px;
+          margin: 10px;
+          list-style: none;
+          text-align: center;
+          background-color: rgb(192, 209, 181);
+          border-radius: 10px;
+          border: 1px solid #ccc;
+          &:hover {
+            transition: box-shadow 0.3s;
+            // box-shadow: 0 4px 15px 0 rgba(223, 13, 13, 0.2);
+            box-shadow: inset 0 0 50px #333;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**  Products page style**/
+.products {
+  .categories {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(142, 160, 248);
+    .category1 {
+      ul {
+        display: flex;
+        align-items: center;
+
+        li {
+          width: 400px;
+          height: 300px;
+          margin: 10px;
+          list-style: none;
+          text-align: center;
+          background-color: rgb(192, 209, 181);
+          border-radius: 10px;
+          border: 1px solid #ccc;
+          &:hover {
+            transition: box-shadow 0.3s;
+            // box-shadow: 0 4px 15px 0 rgba(223, 13, 13, 0.2);
+            box-shadow: inset 0 0 50px #333;
+          }
+          img {
+            margin-top: 2%;
+            width: 95%;
+            height: 85%;
+          }
+        }
+      }
+    }
+  }
+  // li {
+  //   height: 30vh;
+  // }
+}
+
+/**  SingleProducts page style**/
+.product {
+  margin-left: 10px;
+  img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.item {
+  margin-left: 10px;
+  img {
+    width: 400px;
+    height: 400px;
+  }
+}
