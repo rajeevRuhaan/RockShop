@@ -1,15 +1,14 @@
 import React from "react";
 
-const CategoryCart = ({ cartData }) => {
+const Category2 = ({ product2 }) => {
   return (
-    <div className="item">
+    <div className="category1">
       <ul>
-        {cartData.map((data) => (
+        {product2.map((data) => (
           <li>
             <img src={data.image} />
             <h4>{data.name}</h4>
             <p>Price: {data.price}$</p>
-            <p>Quantity: {data.quantity}</p>
           </li>
         ))}
       </ul>
@@ -17,4 +16,4 @@ const CategoryCart = ({ cartData }) => {
   );
 };
 
-export default CategoryCart;
+export default Category2;

@@ -11,9 +11,7 @@ const CartReducer = (state = [], action) => {
 
     case POST_CART:
       updatedCart = [...state];
-      updatedItemIndex = updatedCart.findIndex(
-        (item) => item.id === action.data.id
-      );
+      updatedItemIndex = updatedCart.findIndex((item) => item.id === action.id);
       if (updatedItemIndex < 0) {
         updatedCart.push({ ...action.data, quantity: 1 });
       } else {

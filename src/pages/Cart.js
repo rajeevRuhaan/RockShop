@@ -1,13 +1,13 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import CategoryCart from "../container/CategoryCart";
+import CartProducts from "../container/CartProducts";
 import { getAllFromCart } from "../services/apiCart";
 import { GET_CART } from "../store/Actions";
 
 function Cart(props) {
   const dispatch = useDispatch();
-  const cart = useSelector((state) => state.cart);
+  const cart = useSelector((state) => state.cartReducer);
 
   const loadCartData = async () => {
     const res = await getAllFromCart();
@@ -24,7 +24,7 @@ function Cart(props) {
   return (
     <div>
       This is cart page
-      <CategoryCart cartData={cart} />
+      <CartProducts cartData={cart} />
     </div>
   );
 }

@@ -100,13 +100,15 @@
       "id": 1,
       "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
       "name": "ABC1 product",
-      "price": 20
+      "price": 20,
+      "quantity": 1
     },
     {
       "id": 2,
       "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
       "name": "ABC2 product",
-      "price": 20
+      "price": 20,
+      "quantity": 1
     }
   ]
 }

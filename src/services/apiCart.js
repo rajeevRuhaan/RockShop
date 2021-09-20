@@ -6,15 +6,7 @@ export const getAllFromCart = async () => {
   return response.data;
 };
 
-export const AddToCart = async (singleproductdata) => {
-  const cart = { ...singleproductdata };
-
-  // const object = {
-  //   ...cart,
-  //   quantity: 1,
-  // };
-  console.log("cart before post");
-  const response = await axios.post(baseUrl, cart);
-  console.log("cart after post");
+export const AddToCart = async (sendToCart) => {
+  const response = await axios.post(baseUrl, sendToCart);
   return response.data;
 };

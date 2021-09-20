@@ -7,7 +7,7 @@ import {
   GET_SINGLEPRODUCT,
 } from "../Actions";
 
-const Reducer = (state = [], action) => {
+const Reducer1 = (state = [], action) => {
   switch (action.type) {
     case GET_DATA:
       return action.data;
@@ -20,4 +20,4 @@ const Reducer = (state = [], action) => {
   }
 };
 
-export default Reducer;
+export default Reducer1;
