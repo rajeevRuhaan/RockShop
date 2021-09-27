@@ -1,64 +1,53 @@
-import Home from "./pages/Home";
-import Cart from "./pages/Cart";
-import Products from "./pages/Products";
-import SingleProduct from "./pages/SingleProduct";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch,
-} from "react-router-dom";
-// import { useRouteMatch } from "react-router-dom";
+import React, { Fragment, useEffect, useState } from "react";
+import { Route, Switch } from "react-router";
 
+import CustomNavbar from "./component/CustomNavbar";
+import Cart from "./pages/Cart";
+import Home from "./pages/Home";
+import Product from "./pages/Product";
+import Products from "./pages/Products";
 import "./App.scss";
+import { useDispatch, useSelector } from "react-redux";
+import { LOAD_CART } from "./actions/types";
+import { getCart } from "./services/api";
 
 function App() {
-  // let match = useRouteMatch();
-  // console.log(match);
+  const dispatch = useDispatch();
+  const [quantity, setQuantity] = useState();
 
+  //render the component
+  useEffect(() => {
+    laodCart();
+  }, []);
+
+  const laodCart = async () => {
+    console.log("loadCart");
+    try {
+      const res = await getCart();
+      dispatch({
+        type: LOAD_CART,
+        payload: res.data,
+      });
+    } catch (error) {
+      console.log("Error from Home, loadCart: ", error);
+    }
+  };
+
+  const cartItemCount = useSelector((state) =>
+    state.cart.reduce((count, curItem) => {
+      return count + curItem.quantity;
+    }, 0)
+  );
   return (
-    <div className="App">
-      <Router>
-        <div className="links">
-          <header>
-            <h1 className="logo">Rocks-&-Shop</h1>
-            <nav>
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/products">Products</Link>
-                </li>
-                <li>
-                  <Link to="/cart">Cart</Link>
-                </li>
-              </ul>
-            </nav>
-          </header>
-          <main>
-            <Switch>
-              <Route path={`/products`} exact>
-                <Products />
-              </Route>
-
-              <Route path={`/products/:id`} exact>
-                <SingleProduct />
-              </Route>
-
-              <Route path="/cart">
-                <Cart />
-              </Route>
-
-              <Route path="/" exact>
-                <Home />
-              </Route>
-            </Switch>
-          </main>
-        </div>
-      </Router>
-    </div>
+    <Fragment>
+      <CustomNavbar quantity={cartItemCount} />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/products" component={Products} />
+        <Route exact path="/product/:type/:id" component={Product} />
+        <Route exact path="/cart" component={Cart}></Route>
+      </Switch>
+    </Fragment>
   );
 }
 

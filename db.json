@@ -1,5 +1,5 @@
 {
-  "category1": [
+  "product_type_1": [
     {
       "id": 1,
       "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
@@ -31,65 +31,65 @@
       "price": 20
     }
   ],
-  "category2": [
+  "product_type_2": [
     {
-      "id": 1,
+      "id": 6,
       "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
       "name": "XYZ1 product",
       "price": 20
     },
     {
-      "id": 2,
+      "id": 7,
       "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
       "name": "XYZ2 product",
       "price": 20
     },
     {
-      "id": 3,
+      "id": 8,
       "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
       "name": "XYZ3 product",
       "price": 20
     },
     {
-      "id": 4,
+      "id": 9,
       "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
       "name": "XYZ4 product",
       "price": 20
     },
     {
-      "id": 5,
+      "id": 10,
       "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
       "name": "XYZ5 product",
       "price": 20
     }
   ],
-  "category3": [
+  "product_type_3": [
     {
-      "id": 1,
+      "id": 11,
       "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
       "name": "PQR1 product",
       "price": 20
     },
     {
-      "id": 2,
+      "id": 12,
       "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
       "name": "PQR2 product",
       "price": 20
     },
     {
-      "id": 3,
+      "id": 13,
       "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
       "name": "PQR3 product",
       "price": 20
     },
     {
-      "id": 4,
+      "id": 14,
       "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
       "name": "PQR4 product",
       "price": 20
     },
     {
-      "id": 5,
+      "id": 15,
       "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
       "name": "PQR5 product",
       "price": 20
@@ -97,18 +97,11 @@
   ],
   "cart": [
     {
-      "id": 1,
+      "id": 3,
       "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
-      "name": "ABC1 product",
+      "name": "ABC3 product",
       "price": 20,
-      "quantity": 1
-    },
-    {
-      "id": 2,
-      "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
-      "name": "ABC2 product",
-      "price": 20,
-      "quantity": 1
+      "quantity": 3
     }
   ]
 }
