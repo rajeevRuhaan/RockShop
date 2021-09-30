@@ -7,13 +7,13 @@ const Products = () => {
   return (
     <div>
       <h3>Products</h3>
-      <h4 className="text-center">Product type 1</h4>
+      <h4 className="text-center">Igneous Rocks</h4>
       <ProductsType1 />
       <hr />
-      <h4 className="text-center">Product type 2</h4>
+      <h4 className="text-center">Sedimentary Rocks</h4>
       <ProductsType2 />
       <hr />
-      <h4 className="text-center">Product type 3</h4>
+      <h4 className="text-center">Metamorphic Rock</h4>
       <ProductsType3 />
     </div>
   );

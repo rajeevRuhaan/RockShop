@@ -2,106 +2,106 @@
   "product_type_1": [
     {
       "id": 1,
-      "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
-      "name": "ABC1 product",
-      "price": 20
+      "image": "https://thumbs.dreamstime.com/b/piece-volcanic-extrusive-igneous-rock-abrasive-porous-surface-isolated-white-39593996.jpg",
+      "name": "Volcanic Extrusive Igneous Rock",
+      "price": 100
     },
     {
       "id": 2,
-      "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
-      "name": "ABC2 product",
-      "price": 20
+      "image": "https://i.pinimg.com/originals/18/1d/3a/181d3ad418332cd53406576f8c625a27.jpg",
+      "name": "Olivin Gabbro",
+      "price": 200
     },
     {
       "id": 3,
-      "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
-      "name": "ABC3 product",
-      "price": 20
+      "image": "https://media.sciencephoto.com/image/c0503192/400wm",
+      "name": "MicroGabbro",
+      "price": 50
     },
     {
       "id": 4,
-      "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
-      "name": "ABC4 product",
-      "price": 20
+      "image": "http://www.daviddarling.info/images/dolerite.jpg",
+      "name": "Dolerite",
+      "price": 49
     },
     {
       "id": 5,
-      "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
-      "name": "ABC5 product",
+      "image": "https://media.australian.museum/media/dd/images/Some_image.width-800.df2bc93.jpg",
+      "name": "Volcanic Rock",
       "price": 20
     }
   ],
   "product_type_2": [
     {
       "id": 6,
-      "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
-      "name": "XYZ1 product",
-      "price": 20
+      "image": "https://m.media-amazon.com/images/I/717v0VFxVnL._SX355_.jpg",
+      "name": "Maalavya Conglomerate",
+      "price": 110
     },
     {
       "id": 7,
-      "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
-      "name": "XYZ2 product",
-      "price": 20
+      "image": "https://5.imimg.com/data5/MS/JA/MY-51522116/dolomite-250x250.jpg",
+      "name": "Limestone",
+      "price": 70
     },
     {
       "id": 8,
-      "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
-      "name": "XYZ3 product",
-      "price": 20
+      "image": "https://assets.fishersci.com/TFS-Assets/CCG/product-images/ESNG0032.jpg-650.jpg",
+      "name": "Chalk Limestone",
+      "price": 60
     },
     {
       "id": 9,
-      "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
-      "name": "XYZ4 product",
-      "price": 20
+      "image": "https://www.sandatlas.org/wp-content/uploads/00105-IMG_5703-sandstone.jpg",
+      "name": "Sandstone",
+      "price": 58
     },
     {
       "id": 10,
-      "image": "https://img01.ztat.net/article/spp-media-p1/88afeae9a6cd4c4999101a80f976ff7b/5939c278ca684ac69ced5eef3d5d3576.jpg?imwidth=1800&filter=packshot",
-      "name": "XYZ5 product",
-      "price": 20
+      "image": "https://i.pinimg.com/originals/bc/21/db/bc21dbd1559013e122b25450fa91472a.jpg",
+      "name": "Chert Rock",
+      "price": 90
     }
   ],
   "product_type_3": [
     {
       "id": 11,
-      "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
-      "name": "PQR1 product",
-      "price": 20
+      "image": "https://www.collinsdictionary.com/images/full/slate_56061250.jpg",
+      "name": "Slate",
+      "price": 190
     },
     {
       "id": 12,
-      "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
-      "name": "PQR2 product",
-      "price": 20
+      "image": "https://image.sciencenorway.no/1383714.jpg?imageId=1383714&width=480&height=274",
+      "name": "Eclogite",
+      "price": 200
     },
     {
       "id": 13,
-      "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
-      "name": "PQR3 product",
-      "price": 20
+      "image": "https://www.minimegeology.com/shop/images/p.482.1-white_marble_metamorphic_rock.jpg",
+      "name": "White Marble",
+      "price": 250
     },
     {
       "id": 14,
-      "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
-      "name": "PQR4 product",
+      "image": "https://media.sciencephoto.com/image/e4170394/800wm",
+      "name": "Folded Gneiss",
       "price": 20
     },
     {
       "id": 15,
-      "image": "https://img01.ztat.net/article/spp-media-p1/feee1ce658e4475f926e1c527c0631a9/e74e7d73c742412d866cf5b21d7979fb.jpg?imwidth=1800&filter=packshot",
-      "name": "PQR5 product",
+      "image": "https://envato-shoebox-0.imgix.net/b3cf/bf2a-1cb4-47aa-8408-a1223149f401/Canon_200601_0541.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=39ac8bfccc3e22ac1f9443db466ed8f0",
+      "name": "Limonite Ore",
       "price": 20
     }
   ],
   "cart": [
     {
-      "id": 3,
-      "image": "https://img01.ztat.net/article/spp-media-p1/93ffe37a0d8933c9823e264a11eeea4c/2681c775c03d4dd0aa8f9fb2c3a42285.jpg?imwidth=1800&filter=packshot",
-      "name": "ABC3 product",
-      "price": 20,
-      "quantity": 3
+      "id": 12,
+      "image": "https://image.sciencenorway.no/1383714.jpg?imageId=1383714&width=480&height=274",
+      "name": "Eclogite",
+      "price": 200,
+      "quantity": 1
     }
   ]
 }

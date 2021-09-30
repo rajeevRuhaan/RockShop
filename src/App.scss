@@ -1,12 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
+
+* {
+  font-family: "Montserrat", serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
 /* *  HEADER page style**/
 nav {
   background-color: aqua;
+  font-size: 20px;
 }
 
-/**Body styling **/
+/**Home page styling **/
 .home {
   body {
-    height: 95vh;
+    height: 88vh;
+    img {
+      width: 100%;
+      height: 45vh;
+    }
+    .product-categories {
+      margin: 0 auto;
+      h2 {
+        margin-left: 50%;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        margin: auto 20% auto 20%;
+        @media (max-width: 600px) {
+        }
+        li {
+          width: 20vw;
+          height: 30vh;
+          margin: 10px;
+          list-style: none;
+          text-align: center;
+          background-color: rgb(192, 209, 181);
+          border-radius: 10px;
+          border: 1px solid #ccc;
+          &:hover {
+            transition: box-shadow 0.3s;
+            // box-shadow: 0 4px 15px 0 rgba(223, 13, 13, 0.2);
+            box-shadow: inset 0 0 50px #333;
+          }
+          img {
+            width: 100%;
+            height: 80%;
+            @media (max-width: 500px) {
+              display: flex;
+              flex-flow: column wrap;
+              max-width: 100%;
+              height: 20vh;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 500px) {
+      max-width: 100%;
+      height: auto;
+    }
   }
 }
 
@@ -16,4 +82,21 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+}
+
+/** CartCard style**/
+.cartCard {
+  img {
+    width: 24rem;
+  }
+}
+
+/** Footer Styling **/
+footer {
+  margin: 0 auto;
+  padding-top: 1%;
+  text-align: center;
+  min-height: 50px;
+  color: #0d0d0d;
+  background-color: cornflowerblue;
 }

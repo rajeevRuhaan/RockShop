@@ -33,23 +33,26 @@ const CartCard = ({ product }) => {
     }
   };
   return (
-    <div className="col-sm">
-      <img
-        className="card-img-top"
-        src={product.image}
-        alt={product.name}
-        style={{ width: "12rem" }}
-      />
-      <div class="card-body">
-        <h5 class="card-title">{product.name}</h5>
-        <p class="card-text">Price : ${product.price}</p>
-        <p class="card-text">Total : ${product.price * product.quantity}</p>
-        <p class="card-text">Quantity : {product.quantity}</p>
-      </div>
-      <div className="d-flex justify-content-between">
-        <button className="btn btn-danger" onClick={handleDeleteCartProduct}>
-          Delete Cart Product
-        </button>
+    <div className="cartCard">
+      <div className="col-sm">
+        <img
+          className="card-img-top"
+          src={product.image}
+          alt={product.name}
+          // style={{ width: "12rem" }}
+        />
+        <div class="card-body">
+          <h5 class="card-title">{product.name}</h5>
+          <p class="card-text">Price : ${product.price}</p>
+          <p class="card-text">Total : ${product.price * product.quantity}</p>
+          <p class="card-text">Quantity : {product.quantity}</p>
+        </div>
+        <div className="d-flex justify-content-between">
+          <button className="btn btn-danger" onClick={handleDeleteCartProduct}>
+            <i class="bi bi-trash"></i>
+            Delete Cart Product
+          </button>
+        </div>
       </div>
     </div>
   );

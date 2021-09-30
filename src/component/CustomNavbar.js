@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 
 const CustomNavbar = ({ quantity }) => {
   return (
-    <Navbar>
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="/">RockShop</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

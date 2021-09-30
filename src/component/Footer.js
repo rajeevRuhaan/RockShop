@@ -1,11 +1,7 @@
 import React from "react";
 
-function Footer(props) {
-  return (
-    <div>
-      <p>This is copyright@rajeevSah</p>
-    </div>
-  );
+function Footer() {
+  return <footer>Copyright@rajeevSah</footer>;
 }
 
 export default Footer;
